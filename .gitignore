@@ -1,0 +1,45 @@
+# Claude Code local settings
+.claude/
+
+# Deprecated tooling (lihat 00-konsep/_archive/)
+00-konsep/_archive/
+
+# File historis besar — tidak perlu di remote
+screencapture-gamma-*.pdf
+
+# Office temp/lock files
+~$*.xlsx
+~$*.pptx
+~$*.docx
+*.tmp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.key
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Editor / IDE
+.vscode/settings.json
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
