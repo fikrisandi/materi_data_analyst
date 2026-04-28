@@ -1,6 +1,10 @@
 # Claude Code local settings
 .claude/
 
+# Mentor-only kunci jawaban — JANGAN di-push ke public repo
+# (kunci jawaban semua sesi, rubrik penilaian, common mistakes)
+99-resources/mentor-playbook/week-*/
+
 # Deprecated tooling (lihat 00-konsep/_archive/)
 00-konsep/_archive/
 
